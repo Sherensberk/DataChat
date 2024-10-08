@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "login"
+version = "0.1.0"
+description = ""
+authors = ["Henrycke B.S <Oschenberk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["extra"], version = "^0.115.0"}
+sqlalchemy = "^2.0.35"
+pydantic-settings = "^2.5.2"
+pyjwt = "^2.9.0"
+pyodbc = "^5.1.0"
+pydantic = {extras = ["email"], version = "^2.9.2"}
+pwdlib = {extras = ["argon2"], version = "^0.2.1"}
+python-multipart = "^0.0.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
